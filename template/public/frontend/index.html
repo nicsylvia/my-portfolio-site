@@ -1,0 +1,618 @@
+{% extends 'public/frontend/base.html' %}
+{% load static %}
+
+{% block tittle %}
+Sylvia's Portfolio Site
+{% endblock %}
+
+{% block content %}
+ <!--/ Nav End /-->
+
+  <!--/ Intro Skew Star /-->
+  <div id="home" class="intro route bg-image" style="background-image: url({% static 'public/frontend/img/nicole.jpg' %})">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="intro-title mb-4">I am Sylvia Adimike</h1>
+          <p class="intro-subtitle"><span class="text-slider-items">CEO Sylvia Pastries,Web Developer,Backend Developer, Snacks Caterer, Online Tutor, 3D Logo Creator.</span><strong class="text-slider"></strong></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Intro Skew End /-->
+
+  <section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-sm-6 col-md-5">
+                    <div class="about-img">
+                      <img src="{% static 'public/frontend/img/sylvia.jpg' %}" class="img-fluid rounded b-shadow-a" alt="">
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-7">
+                    <div class="about-info">
+                      <p><span class="title-s">Name: </span> <span>Sylvia Adimike</span></p>
+                      <p><span class="title-s">Profile: </span> <span>Python & Django software developer</span></p>
+                      <p><span class="title-s">Email: </span> <span>nicsylvia15f@gmil.com.com</span></p>
+                      <p><span class="title-s">Phone: </span> <span>+234 9061 180 473</span></p>
+                      <p>Check out my CV <a href="{% static 'public/frontend/img/cv.jpg' %}"><button style="background-color: #0078ff; color: white;">here</button></a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-mf">
+                  <p class="title-s">Skill</p>
+                  <span>HTML</span> <span class="pull-right">85%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>CSS3</span> <span class="pull-right">70%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>GIT</span> <span class="pull-right">80%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>PYTHON</span> <span class="pull-right">60%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>DJANGO</span> <span class="pull-right">80%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      About Me
+                    </h5>
+                  </div>
+                  <p class="lead">
+                   Sylvia is the CEO of Sylvia pastries, with experience in baking for small to medium events. She specialises in 
+                   baking sumptuous and mouth watering cakes and pastries. 
+                  </p>
+                  <p class="lead">
+                    Fueled by her passion to help and understand people and join a team that can help solve world problems or at least a reasonable part of it, she joins the coding process and is on the path of software development.
+                    Hoping a day comes when she has a community of technology icons and together we make our quota to the world!!
+                  </p>
+                  <p class="lead">
+                    On a lighter tone, I love running a lot and to a large extent SPORTS. Don't ask me my favourite team...hehe😀
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--/ Section Services Star /-->
+  <section id="service" class="services-mf route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Services
+            </h3>
+            <p class="subtitle-a">
+              Reach out to me if you need any of the services below.
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-code-working"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Web Development</h2>
+              <p class="s-description text-center">
+               Intermediate in HTML, CSS3, Bootstrap, GIT, Python & Django.
+                Can help as a resourceful partner or a guide to learning any of this.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-monitor"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Backend Developer</h2>
+              <p class="s-description text-center">
+                With the help of my knowledge in Python and Django coupled with my basic understanding of the frontend 
+                technologies, i can build  a website for your business, schools, hospitals etc... 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Snacks Caterer</h2>
+              <p class="s-description text-center">
+                For your delicious pastries for events, gatherings and all of that. Reach out to me for your bookings and orders. A 3-days or more before 
+                notification will be great👍
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title"> Online Tutor</h2>
+              <p class="s-description text-center">
+                For home lessons on Coding, Bakings, and others. I'm always for you.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-paintbrush"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">3D Logo Creator</h2>
+              <p class="s-description text-center">
+                In need of fantastic 3D logos, i can always create one for you at 2000NGN only. For learning, send me a private message
+                on any of my social media accounts...let's discuss.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-stats-bars"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Marketing Services</h2>
+              <p class="s-description text-center">
+                Finally, If you need quality household items and fashions, whatever you can think of, send me a message
+                let's get you what you need.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Services End /-->
+
+<div class="section-counter paralax-mf bg-image" style="background-image: url({ static 'public/frontend/img/counters-bg.jpg' %})">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">4</p>
+              <span class="counter-text">WORKS COMPLETED</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">2</p>
+              <span class="counter-text">YEARS OF EXPERIENCE</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-ios-people"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">30</p>
+              <span class="counter-text">TOTAL CLIENTS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">20</p>
+              <span class="counter-text">AWARD WON</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--/ Section Portfolio Star /-->
+  <section id="work" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Portfolio
+            </h3>
+            <p class="subtitle-a">
+              Actions Speaks louder than Words!
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="{% static 'public/frontend/img/web development.jpg' %}" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="{% static 'public/frontend/img/web development.jpg' %}" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Web Development</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">2 oct. 2021</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="{% static 'public/frontend/img/backend development.jpg' %}" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="{% static 'public/frontend/img/backend development.jpg' %}" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Backend Development</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Django</span> / <span class="w-date">5 Nov. 2021</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="{% static 'public/frontend/img/online tutor.jpg' %}" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="{% static 'public/frontend/img/online tutor.jpg' %}" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Online Tutor</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Online</span> / <span class="w-date">28 Feb. 2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="{% static 'public/frontend/img/catering.jpg' %}" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="{% static 'public/frontend/img/catering.jpg' %}" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Snacks Catering</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Snacks</span> / <span class="w-date">18 Sep. 2021</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="{% static 'public/frontend/img/3d logo.jpg' %}"  data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="{% static 'public/frontend/img/3d logo.jpg' %}" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">3D Logo Creator</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Logo Designs</span> / <span class="w-date">14 May 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="{% static 'public/frontend/img/marketing.jpg' %}" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="{% static 'public/frontend/img/marketing.jpg' %}" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Marketing Services</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Collections</span> / <span class="w-date">27 April 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!--/ Section Portfolio End /-->
+
+  <!--/ Section Testimonials Star /-->
+  <div class="testimonials paralax-mf bg-image" style="background-image: url({% static 'public/frontend/img/background.jpg' %})">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="testimonial-mf" class="owl-carousel owl-theme">
+            <div class="testimonial-box">
+              <div class="author-test">
+                <img src="{% static 'public/frontend/img/nazor2.jpg' %}" alt="" class="img-fluid rounded-circle b-shadow-a">
+                <span class="author">Kosi Rita</span>
+              </div>
+              <div class="content-test">
+                <p class="description lead">
+                  My dear! You learn work finish. Well done. My siblings enjoyed it.
+                </p>
+                <span class="comit"><i class="fa fa-quote-right"></i></span>
+              </div>
+            </div>
+            <div class="testimonial-box">
+              <div class="author-test">
+                <img src="{% static 'public/frontend/img/somto2.jpg' %}" alt="" class="img-fluid rounded-circle b-shadow-a">
+                <span class="author">Daniel Greater</span>
+              </div>
+              <div class="content-test">
+                <p class="description lead">
+                 It's your meatpies and doughnuts for me!! I want more
+                </p>
+                <span class="comit"><i class="fa fa-quote-right"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--/ Section Blog Star /-->
+  <section id="blog" class="blog-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Blog
+            </h3>
+            <p class="subtitle-a">
+             Let's talk about happening and random things here
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+       {% if blog %}
+       {% for b in blog %}
+       <div class="col-md-4">
+        <div class="card card-blog">
+          <div class="card-img">
+            <a href=""><img src="{{ b.get_image }}" alt="" class="img-fluid"></a>
+          </div>
+          <div class="card-body">
+            <div class="card-category-box">
+              <div class="card-category">
+                <h6 class="category">{{ b.tittle }}</h6>
+              </div>
+            </div>
+            <h3 class="card-title"><a href="">{{ b.question }}</a></h3>
+            <p class="card-description">
+             {{ b.description }}
+            </p>
+          </div>
+          <div class="card-footer">
+            <div class="post-author">
+              <a href="#">
+                <img src="{% static 'public/frontend/img/nicole.jpg' %}" alt="" class="avatar rounded-circle">
+                <span class="author">Sylvia Adimike</span>
+              </a>
+            </div>
+            <div class="post-date">
+              <span class="ion-ios-clock-outline"></span> {{ b.time }}
+            </div>
+          </div>
+        </div>
+      </div>
+      
+       {% endfor %}
+       {% endif %}
+      </div>
+    </div>
+  </section>
+  <!--/ Section Blog End /-->
+
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url({% static 'public/frontend/img/web\ development.jpg' %})">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Send Me A Message
+                    </h5>
+                  </div>
+                  <div>
+                    {% if messages %}
+                    {% for m in messages %}
+                     <div class="alert-success" style="margin-bottom: 10px; font-style: italic; font-family: Verdana, Geneva, Tahoma, sans-serif;">{{ m }}</div>
+                    {% endfor %}
+                    {% endif %}
+                      <form action="" method="POST" role="form" >
+                      <div id="sendmessage">Your message has been sent. Thank you!</div>
+                      <div id="errormessage"></div>
+                      <div class="row">
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                              <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <textarea class="form-control" name="contact" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                        </div>
+                      </div>
+                      {% csrf_token %}
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                      Get in Touch
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead">
+                      Get in touch with me through the contact form,any of my social media accounts,through phone calls or text messages. You can email me also.
+                       I look forward to hearing from you. Nice to meet you. I remain Sylvia.
+                    </p>
+                    <ul class="list-ico">
+                      <li><span class="ion-ios-location"></span> Olodi Apapa, Lagos, Nigeria</li>
+                      <li><span class="ion-ios-telephone"></span> +234 90611 80473</li>
+                      <li><span class="ion-email"></span> nicsylvia15f@gmail.com</li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    <ul>
+                      <li><a href=""><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
+                      <li><a href=""><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                      <li><a href=""><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
+                      <li><a href=""><span class="ico-circle"><i class="ion-social-whatsapp"></i></span></a></li>
+                      <!-- <li><a href=""><span class="ico-circle"><i class="ion-social-telegram"></i></span></a></li>
+                      <li><a href=""><span class="ico-circle"><i class="icon-social-envelope"></i></span></a></li>
+                      <li><a href=""><span class="ico-circle"><i class="icon-social-phone"></i></span></a></li> -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+
+{% endblock %}
+ 
